@@ -33,6 +33,7 @@ float getTemp(String type)
     // try
     // {
 
+    http.end();
     return atof(res.c_str());
     // }
     // catch (const std::exception &e)
